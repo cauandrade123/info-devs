@@ -5,6 +5,5 @@ import Navegacao from './router'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
      <Navegacao />  
-     
   </StrictMode>,
 )
