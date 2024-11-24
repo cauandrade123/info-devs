@@ -156,6 +156,11 @@
                       
                       
                       }
+                      .card:hover{
+                        transform: scale(1.2);
+                        box-shadow: 20px 20px 05px rgb(88, 86, 86);
+                        background-color: lightgrey;
+                    }
                       
                 }
 
@@ -318,3 +323,116 @@
                 }
                 
     }    
+
+
+
+    @media screen and (max-width: 768px) {
+        main {
+          flex-direction: column;
+      
+          header {
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            position: absolute;
+      
+            .img {
+              flex-direction: column;
+              align-items: center;
+              padding: 10px;
+      
+              img {
+                width: 70px;
+                height: 80px;
+              }
+      
+              h1 {
+                font-size: 18px;
+              }
+            }
+      
+            .menu {
+              flex-direction: row;
+              align-items: center;
+              padding: 09px;
+      
+              li {
+                padding: 12px ;
+                font-size: 14px;
+              }
+            }
+          }
+      
+          section {
+            flex-direction: column;
+            padding: 20px;
+            align-items: center;
+      
+            .texto {
+              width: 30%;
+              
+           
+              
+              text-align: center;
+      
+              p {
+                font-size: 20px;
+                width: 120px;
+                margin: 20px;
+                text-align: center;
+              }
+      
+              h1 {
+                font-size: 28px;
+              }
+            }
+      
+            .img2 {
+              
+      
+              img {
+                width: 200px;
+                height: 200px;
+              }
+            }
+          }
+      
+          .aboutUs {
+            margin-top: 200px;
+            .cards {
+              .cards1,
+              .cards2 {
+                flex-direction: column;
+                gap: 20px;
+      
+                .card {
+                  width: 90%;
+                  height: auto;
+                  padding: 20px;
+                }
+              }
+            }
+          }
+      
+          .terceiro {
+            .cartoes {
+              .cartao {
+                width: 90%;
+                height: auto;
+      
+                .drjoao {
+                  width: 100%;
+                  height: auto;
+                }
+      
+                .linkprosite {
+                  font-size: 16px;
+                }
+              }
+            }
+          }
+        }
+      }
+      
